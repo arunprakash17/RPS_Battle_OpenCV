@@ -19,7 +19,7 @@ class Ashmap():
     def startGameFun(self):
 
         while True:
-            imgBk = cv.imread("glow.png")
+            imgBk = cv.imread("mainimg.png")
             success,img = cap.read()
    
             imgScaled = cv.resize(img,(0,0),None,0.875,0.730)
